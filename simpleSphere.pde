@@ -3,7 +3,7 @@ PeasyCam  action;
 Esfera  punto;
 
 void setup() {
-  size(600, 800, OPENGL);
+  size(600, 800, P3D);
   action = new PeasyCam(this, 400);
   stroke(255); strokeWeight(3);
 }
@@ -11,7 +11,7 @@ void setup() {
 void draw() {
   background(0);
 
-  punto = new Esfera(200, 100);
+  punto = new Esfera(200, 20);
 }
 
 class Esfera {
@@ -33,12 +33,6 @@ class Esfera {
         z = p * cos(phi);
 
         vector[i][k] = new PVector(x, y, z);
-      }
-    }
-
-    for (int i = 0; i < n; ++i) {
-      for (int k = 0; k < n; ++k) {
-        
         PVector v = vector[i][k];
         point(v.x, v.y, v.z);
       }
