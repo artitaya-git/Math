@@ -8,4 +8,6 @@ A guide for mathematical formulas in Processing.
 
 (1) Sphere = simpleSphere.pde -> A sphere of points
 
+(1.5) Cube = cube.pde -> Particles inside a cube 
+
 (2) Torus 
