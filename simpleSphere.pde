@@ -34,6 +34,7 @@ class Esfera {
 
         vector[i][k] = new PVector(x, y, z);
         PVector v = vector[i][k];
+        
         point(v.x, v.y, v.z);
       }
     }
