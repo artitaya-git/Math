@@ -23,4 +23,4 @@ A guide for mathematical formulas in Processing.
 
 Is the partial differential of a vector
 
-delV = < Fx, Fy, Fz>
+delV = < Fx, Fy, Fz >
