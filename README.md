@@ -19,7 +19,7 @@ A guide for mathematical formulas in Processing.
 (2) Torus 
 
 
-# THE GRADIENT
+# The Gradient
 
 Is the partial differential of a vector
 
