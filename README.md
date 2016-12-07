@@ -17,3 +17,10 @@ A guide for mathematical formulas in Processing.
 (1.5) Cube = cube.pde -> Particles inside a cube 
 
 (2) Torus 
+
+
+# THE GRADIENT
+
+Is the partial differential of a vector
+
+delV = < Fx, Fy, Fz>
