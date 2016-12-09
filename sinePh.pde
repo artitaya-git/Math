@@ -41,7 +41,7 @@ void setup() {
      v = new PVector(x, y);
      
      point(v.x, v.y);
-     t += f;    
+     t += f;   
      //println(t);
    }
  } 
