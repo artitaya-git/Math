@@ -15,11 +15,11 @@ where:
 */
 
 float a   = 200;
-
-
 float t   = 0.0;
 float ph  = 0.0;
 float y;
+
+PVector v;
 
 void setup() {
    size(1000, 800);
@@ -34,13 +34,14 @@ void setup() {
    
    float f   = 0.18;
    float w   = TWO_PI * f;
+
    for (int x = 0; x < width; ++x) {
      y =height/2 +  a * sin(w*t + ph);
 
-     point(x, y);
-
-     t += f;
+     v = new PVector(x, y);
      
+     point(v.x, v.y);
+     t += f;    
      //println(t);
    }
  } 
