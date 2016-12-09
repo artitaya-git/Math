@@ -19,6 +19,11 @@ A guide for mathematical formulas in Processing.
 (2) Torus 
 
 
+# Physics
+
+  (0.1) Sine Wave Physics = sinePh.pde  -> Movement of a sine wave.
+
+
 # The Gradient
 
 Is the partial differential of a vector
