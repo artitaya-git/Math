@@ -22,6 +22,8 @@ A guide for mathematical formulas in Processing.
 # Physics
 
   (0.1) Sine Wave Physics = sinePh.pde  -> Movement of a sine wave.
+  
+  (0.2) Particle System = p5.pde -> particle system.
 
 
 # The Gradient
