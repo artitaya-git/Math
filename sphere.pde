@@ -2,16 +2,24 @@ import peasy.*;
 PeasyCam  action;
 Esfera  punto;
 
+int pAx = 300;    // Positive Axis 
+int nAx = -300;   // Negative Axis 
+
 void setup() {
-  size(600, 800, P3D);
+  size(500, 500, P3D);
   action = new PeasyCam(this, 400);
-  stroke(255); strokeWeight(3);
+  stroke(255); strokeWeight(1);
 }
 
 void draw() {
   background(0);
 
-  punto = new Esfera(200, 20);
+  line(nAx, 0  , 0  , pAx, 0  , 0  ); // x
+  line(0  , nAx, 0  , 0  , pAx, 0  ); // y  
+  line(0  , 0  , nAx, 0  , 0  , pAx); // z 
+  punto = new Esfera(200,90);
+
+  //saveFrame("v-###.png");
 }
 
 class Esfera {
