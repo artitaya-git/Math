@@ -1,3 +1,7 @@
+## Math with Processing
+
+Some basic math from high school done in processing and trigonometry 
+
 # Math
 
 A guide for mathematical formulas in Processing.
